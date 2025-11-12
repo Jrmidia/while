@@ -1,3 +1,6 @@
-aluno = 1
-while aluno != 0
- if aluno != 0
+aluno = int(input("Digite um número: "))
+
+while aluno >= 1:
+    aluno -= 1
+    print(aluno)
+print ("fim")
